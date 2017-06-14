@@ -1,0 +1,793 @@
+
+#trueHeader #logo {
+    background: url(../../images/colors/grey/logo.png) left bottom no-repeat;
+}
+.top_nav {
+    background-color: #aaaaaa;
+}
+.top_nav .right .country_selector {
+    border-left: 1px solid #fff;
+}
+.top_nav .right li {
+    border-left: 1px solid #fff;
+}
+
+.tp-caption.offerbadge {
+    background-color: #aaaaaa;
+}
+.tp-caption.text2 span {
+    color: #aaaaaa;
+}
+.tp-caption.slider_but1 a {
+    background-color: #aaaaaa;
+}
+.domain_search_home {
+    background-color: #aaaaaa;
+}
+.section_title .big span {
+    color: #aaaaaa;
+}
+.section_title_line {
+	background:url(../../images/colors/grey/title_line1.png) 0 0 no-repeat;
+}
+.domain_search_home #domain-searchform #dsearch {
+    border: 1px solid #aaaaaa;
+}
+.domain_search_home .drlist {
+    border: 1px solid #aaaaaa;
+}
+.section_holder1 .box .arrow_up {
+    border-bottom: 20px solid #ff6262;
+}
+.section_holder1 .box .arrow_down {
+    border-top: 20px solid #ff6262;
+}
+.section_holder1 .box .arrow_up.three {
+    border-bottom: 20px solid #ff6262;
+}
+.section_holder1 .box .arrow_down.three {
+    border-top: 20px solid #ff6262;
+}
+.section_holder1 .box.two {
+    background-color: #aaaaaa;
+}
+.section_holder1 .box .arrow_up.two {
+    border-bottom: 20px solid #aaaaaa;
+}
+.section_holder1 .box .arrow_down.two {
+    border-top: 20px solid #aaaaaa;
+}
+.section_title_line.two {
+    background:url(../../images/colors/grey/title_line2.png) 0 0 no-repeat;
+}
+
+/*hover styles*/	
+
+.section_holder2 .one_fourth:hover .custom-select3 select {
+	color: #fff;
+	background-color: #161616;
+	border: 1px solid #fff;
+}
+.section_holder2 .one_fourth:hover .custom-select3:after {
+	color: #fff;
+	background: #161616;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth:hover .price_table {
+	background-color: #aaaaaa;
+}
+.section_holder2 .one_fourth:hover .title {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth:hover .price {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .price {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth:hover .plan_features li {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth:hover .singup_but {
+	color: #272727;
+	background-color: #fff;
+}
+.section_holder2 .one_fourth:hover .arrow_up {
+	border-bottom: 35px solid #aaaaaa;
+}
+.section_holder2 .one_fourth:hover .arrow_down {
+	border-top: 35px solid #aaaaaa;
+}
+/*active styles*/	
+
+.section_holder2 .one_fourth.active .custom-select3 select {
+	color: #fff;
+	background-color: #161616;
+	border: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .custom-select3:after {
+	color: #fff;
+	background: #161616;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .price_table {
+	background-color: #aaaaaa;
+}
+.section_holder2 .one_fourth.active .title {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .price {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .price {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .plan_features li {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.section_holder2 .one_fourth.active .singup_but {
+	color: #272727;
+	background-color: #fff;
+}
+.section_holder2 .one_fourth.active .arrow_up {
+	border-bottom: 35px solid #aaaaaa;
+}
+.section_holder2 .one_fourth.active .arrow_down {
+	border-top: 35px solid #aaaaaa;
+}
+.section_holder2 .plan_info .singup_but {
+    background-color: #aaaaaa;
+}
+.section_holder3 .left .circle.active {
+    background-color: #aaaaaa;
+}
+.section_holder3 .left .circle:hover {
+    background-color: #aaaaaa;
+}
+.section_holder3 .right .img_holder .shape {
+	background:url(../../images/colors/grey/site-img3.png) 0 0 no-repeat;
+}
+.grey {
+    color: #aaaaaa;
+}
+.section_holder3 .right ul.list li i {
+    color: #aaaaaa;
+}
+.section_holder4 {
+	background-image: url(../../images/colors/grey/parallax_bg2.jpg);
+}
+.section_holder5 .cont_holder.active h4 {
+    color: #aaaaaa;
+}
+.section_holder5 .cont_holder.active p {
+    color: #aaaaaa;
+}
+.section_holder5 .cont_holder.active .icon {
+    background-color: #aaaaaa;
+}
+.section_holder5 .cont_holder:hover h4 {
+    color: #aaaaaa;
+}
+.section_holder5 .cont_holder:hover p {
+    color: #aaaaaa;
+}
+.section_holder5 .cont_holder:hover .icon {
+    background-color: #aaaaaa;
+}
+.section_holder6 {
+	background-image: url(../../images/colors/grey/parallax_bg2.jpg);
+}
+.section_holder7 .clint_holder .img_holder.active {
+    background-color: #aaaaaa;
+}
+.section_holder7 .clint_holder .img_holder:hover {
+    background-color: #aaaaaa;
+}
+.punchtext {
+    background-color: #aaaaaa;
+}
+
+.section_holder8 .affiliates .icon {
+    background-color: #aaaaaa;
+}
+.section_holder8 .affiliates:hover h6 {
+    color: #aaaaaa;
+}
+.section_holder8 .affiliates.active h6 {
+    color: #aaaaaa;
+}
+.tabs3 li.active a {
+    color: #aaaaaa;
+}
+.tabs3 li a:hover {
+    color: #aaaaaa;
+}
+.section_holder8 .tablist li i {
+    color: #aaaaaa;
+}
+.readmore_but3 {
+    background-color: #aaaaaa;
+}
+.acc-trigger a {
+	background:url(../../images/colors/grey/accordion-ico5.png) 14px 13px no-repeat
+}
+
+.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover {
+    color: #aaaaaa;
+}
+.section_holder9 {
+    background-color: #aaaaaa;
+}
+.footer1 .social_links ul.social_icons li.active a {
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.footer1 .social_links ul.social_icons li a:hover {
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.email_submit {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.scrollup {
+	background-color:#aaaaaa;
+}
+
+.top_nav .right li.last {
+    border-right: 1px solid #fff;
+}
+
+
+
+/*---------------------*/
+/*inner pages*/
+/*--------------------*/
+
+#searchsubmit {
+    background-color: #aaaaaa;
+}
+.tp-caption.tld_step {
+    background-color: #aaaaaa;
+}
+.table-list3 th {
+    background-color: #aaaaaa;
+}
+.readmore_but5 {
+    background-color: #aaaaaa;
+}
+.section_holder10 ul.list li i {
+    color: #aaaaaa;
+}
+.section_holder11 .list_holder:hover .icon {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.section_holder11 .list_holder .icon {
+    color: #aaaaaa;
+}
+.section_holder11 .list_holder:hover h5 {
+    color: #aaaaaa;
+}
+.section_holder11 .list_holder.active .icon {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.section_holder11 .list_holder.active h5 {
+    color: #aaaaaa;
+}
+.section_holder11 .one_third.active h5 {
+    color: #aaaaaa;
+}
+
+.section_holder11 .one_third:hover h5 {
+    color: #aaaaaa;
+}
+.section_holder12 .one_fourth.active h5 {
+    color: #aaaaaa;
+}
+.section_holder12 .one_fourth.active .icon {
+    color: #aaaaaa;
+}
+.section_holder12 .one_fourth:hover .icon {
+    color: #aaaaaa;
+}
+.section_holder12 .one_fourth:hover h5 {
+    color: #aaaaaa;
+}
+.section_holder3 .list_holder.active .icon {
+    background-color: #aaaaaa;
+}
+.section_holder3 .list_holder.active h5 {
+    color: #aaaaaa;
+}
+.section_holder3 .list_holder:hover .icon {
+    background-color: #aaaaaa;
+}
+.section_holder3 .list_holder:hover h5 {
+    color: #aaaaaa;
+}
+.tp-caption.text7 {
+    color: #aaaaaa;
+}
+.section_holder13 .price {
+    color: #aaaaaa;
+}
+.section_holder13 .linux ul.list li i {
+    color: #aaaaaa;
+}
+.acc-trigger02 a:hover, .acc-trigger02.active a, .acc-trigger02.active a:hover {
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.header_medium .bigtext span {
+    color: #aaaaaa;
+}
+.header_medium.two .smalltext span {
+    color: #aaaaaa;
+}
+
+.section_holder22 .one_fourth:hover .img_holder {
+    background-color: #aaaaaa;
+}
+.section_holder22 .img_holder .social_icon li a:hover {
+    background-color: #aaaaaa;
+}
+.section_holder22 .one_fourth.active .img_holder {
+    background-color: #aaaaaa;
+}
+.section_holder22 .img_holder .social_icon li a.active {
+    background-color: #aaaaaa;
+}
+.section_holder14 .one_fourth:hover .icon {
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.section_holder14 .one_fourth:hover h5 {
+    color: #aaaaaa;
+}
+.section_holder14 .one_fourth.active h5 {
+    color: #aaaaaa;
+}
+.section_holder14 .one_fourth:hover h5 {
+    color: #aaaaaa;
+}
+.section_holder14 .one_fourth.active .icon {
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.section_holder16 .one_third:hover h5 {
+    color: #aaaaaa;
+}
+.section_holder16 .one_third:hover .icon {
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.section_holder16 .one_third.active .icon {
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.section_holder16 .one_third.active h5 {
+    color: #aaaaaa;
+}
+.table-list4 td a {
+    background-color: #aaaaaa;
+}
+#searchsubmit2 {
+    background-color: #aaaaaa;
+}
+
+.section_holder30 .topic_holder.active {
+    border: 1px solid #aaaaaa;
+}
+.section_holder30 .topic_holder:hover {
+    border: 1px solid #aaaaaa;
+}
+.section_holder30 .topic_holder.active .icon {
+    color: #aaaaaa;
+}
+.section_holder30 .topic_holder.active h4 {
+    color: #aaaaaa;
+}
+.section_holder30 .topic_holder:hover .icon {
+    color: #aaaaaa;
+}
+.section_holder30 .topic_holder:hover h4 {
+    color: #aaaaaa;
+}
+.section_holder30 .topic_holder .text ul.list li a:hover {
+    color: #aaaaaa;
+}
+.sidebar_latest_posts .post_holder.active h6 {
+    color: #aaaaaa;
+}
+.sidebar_latest_posts .post_holder.active .img {
+    border: 1px solid #aaaaaa;
+}
+.categories_holder .list li a:hover {
+    color: #aaaaaa;
+}
+.sidebar_latest_posts .post_holder:hover h6 {
+    color: #aaaaaa;
+}
+.sidebar_latest_posts .post_holder:hover .img {
+    border: 1px solid #aaaaaa;
+}
+.punchline_text_box {
+    border-color: #EEE #EEE #EEE #aaaaaa;
+}
+a.knowmore_but {
+    background-color: #aaaaaa;
+}
+.products_tags .tags li a {
+    background-color: #aaaaaa;
+}
+.sky-form .button.eight {
+    background-color: #aaaaaa;
+}
+.section_holder26 .title1 span {
+    color: #aaaaaa;
+}
+.portfolio_single a.add_but {
+    background-color: #aaaaaa;
+}
+.sidebar_social_icons .social_icons li a:hover {
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.portfolio_single .project_info span .right .tags li a {
+    background-color: #aaaaaa;
+}
+.cbp-l-filters-alignCenter.two .cbp-filter-item:hover {
+    border: 1px solid #aaaaaa;
+}
+
+.cbp-l-filters-alignCenter.two .cbp-filter-item-active {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.cbp-l-filters-alignRight .cbp-filter-item-active {
+    background-color: #aaaaaa;
+    border-color: #aaaaaa;
+}
+.section_holder28 .post_holder .date {
+    background-color: #aaaaaa;
+}
+.section_holder28 .post_img .hover_box .box_inner .icon:hover {
+    background-color: #aaaaaa;
+}
+.pagenation_bottom a.next_prv i {
+    color: #aaaaaa;
+}
+.pagenation_bottom a.next_prv:hover {
+    color: #aaaaaa;
+}
+.pagenation_bottom .page_number li a.active {
+    background-color: #aaaaaa;
+}
+.pagenation_bottom .page_number li a:hover {
+    background-color: #aaaaaa;
+}
+.readmore_but6:hover {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.readmore_but6 {
+    border: 1px solid #aaaaaa;
+}
+.section_holder29 .post_img .date {
+    background-color: #aaaaaa;
+}
+.section_holder29 .comment_info:hover {
+    border: 1px solid #aaaaaa;
+}
+.section_holder29 .comment_info .right a.more {
+    color: #aaaaaa;
+}
+.section_holder29 .comment_info:hover .name {
+    color: #aaaaaa;
+}
+.section_holder29 .comment_info .right .date {
+    color: #aaaaaa;
+}
+.section_holder29 .comment_info .right a.readmore {
+    background-color: #aaaaaa;
+}
+.section_holder29 a.loadmore_but {
+    background-color: #aaaaaa;
+}
+.sky-form .button.seven {
+    background-color: #aaaaaa;
+}
+.address_info a {
+    color: #aaaaaa;
+}
+.sky-form .button {
+    background-color: #aaaaaa;
+}
+
+
+
+/*layout 2*/
+
+.section_holder31 #searchsubmit {
+    background-color: #aaaaaa;
+}
+
+.section_holder31 ul.tld_list li.first {
+    background-color: #aaaaaa;
+}
+.readmore_but9 {
+    background-color: #aaaaaa;
+}
+ul.nav > li > a.active:hover {
+    background-color: #aaaaaa;
+}
+ul.nav > li > a:hover {
+    color: #aaaaaa;
+}
+ul.nav > li > a.active {
+    background-color: #aaaaaa;
+}
+.flex-control-paging li a.flex-active {
+    background: none repeat scroll 0% 0% #aaaaaa;
+}
+.lt_title_line {
+	background:url(../../images/colors/grey/title_line7.png) center top no-repeat;
+}
+
+.section_holder33 .plan_info .singup_but {
+    background-color: #aaaaaa;
+}
+
+
+
+/*hover styles*/	
+.section_holder33 .price_table:hover .custom-select3:after {
+	background: #aaaaaa;
+	border-top: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table:hover {
+	background-color: #aaaaaa;
+	padding:0 0;
+	margin: 20px 0 0 0;
+}
+.section_holder33 .price_table:hover .title {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table:hover .price {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table:hover .plan_features li {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table:hover .singup_but {
+	color: #272727;
+	background-color: #fff;
+}
+.section_holder33 .price_table:hover .custom-select3 select {
+    background: none repeat scroll 0% 0% #aaaaaa;
+    border: 1px solid #cecece;
+}
+
+/*active styles*/	
+.section_holder33 .price_table.custom-select3 select {
+	background-color: #aaaaaa;
+	border: 1px solid #cecece;
+}
+.section_holder33 .price_table.active .custom-select3:after {
+	background: #aaaaaa;
+	border-top: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table.active {
+	position:relative;
+	background-color: #aaaaaa;
+	padding:20px 0;
+	margin: 0 0 0 0;
+}
+.section_holder33 .price_table.active .title {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table.active .price {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table.active .plan_features li {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder33 .price_table.active .custom-select3 select {
+    background: none repeat scroll 0% 0% #aaaaaa;
+    border: 1px solid #cecece;
+}
+.section_holder33 .price_table .arrow {
+	background:url(../../images/colors/grey/site-img56.png) 0 0 no-repeat;
+}
+.section_holder33 .price_table .arrow.two {
+   background:url(../../images/colors/grey/site-img57.png) 0 0 no-repeat;
+}
+.section_holder33 .price_table .arrow.three {
+    background:url(../../images/colors/grey/site-img58.png) 0 0 no-repeat;
+}
+.section_holder33 .price_table .arrow.four {
+    background:url(../../images/colors/grey/site-img60.png) 0 0 no-repeat;
+}
+.tabs10 li.active a {
+    color: #aaaaaa;
+}
+.tabs10 li.active a {
+    color: #aaaaaa;
+}
+.section_holder35 .tablist li i {
+    color: #aaaaaa;
+}
+.tabs10 li a:hover {
+    color: #aaaaaa;
+}
+.section_holder35 .readmore_but3 {
+    background-color: #aaaaaa;
+}
+.section_holder35 .affiliates:hover h6 {
+    color: #aaaaaa;
+}
+.section_holder35 .affiliates.active .icon {
+    color: #aaaaaa;
+}
+.section_holder35 .affiliates:hover .icon {
+    color: #aaaaaa;
+}
+.section_holder35 .affiliates.active h6 {
+    color: #aaaaaa;
+}
+.section_title_line_full {
+	background:url(../../images/colors/grey/title_line6.png) 0 0 no-repeat;
+}
+.blue {
+    color: #aaaaaa;
+}
+.footer1 .post_holder.active .text a span {
+    color: #aaaaaa;
+}
+.email_submit.two {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.footer1 .post_holder.active .img {
+    border: 2px solid #aaaaaa;
+}
+.footer1 .post_holder:hover .img {
+    border: 2px solid #aaaaaa;
+}
+.section_holder1.two .box.active {
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.section_holder1.two .box:hover {
+    background-color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+.section_holder1.two .box a {
+    background-color: #aaaaaa;
+}
+.section_holder4.two .one_third.active .icon {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.section_holder4.two .one_third:hover .icon {
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.readmore_but4 {
+    border: 2px solid #aaaaaa;
+}
+.readmore_but4:hover {
+    border: 2px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.tp-caption.text10 span {
+    color: #aaaaaa;
+}
+
+/*two hover styles*/	
+
+.section_holder2.two .one_fourth:hover .custom-select3 select {
+	background-color: #aaaaaa;
+	border: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth:hover .custom-select3:after {
+	background: #aaaaaa;
+	border-top: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+
+.section_holder2.two .one_fourth:hover .price_table {
+	background-color: #aaaaaa;
+}
+.section_holder2.two .one_fourth:hover .title {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth:hover .price {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth.active .price {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth:hover .plan_features li {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth:hover .arrow_up {
+	border-bottom: 35px solid #aaaaaa;
+}
+.section_holder2.two .one_fourth:hover .arrow_down {
+	border-top: 35px solid #aaaaaa;
+}
+
+/*table active styles*/	
+
+.section_holder2.two .one_fourth.active .custom-select3 select {
+	background-color: #aaaaaa;
+	border: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth.active .custom-select3:after {
+	background: #aaaaaa;
+	border-top: 1px solid #cecece;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+
+.section_holder2.two .one_fourth.active .price_table {
+	background-color: #aaaaaa;
+}
+.section_holder2.two .one_fourth.active .title {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth.active .price {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth.active .price {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth.active .plan_features li {
+	border-bottom: 1px solid #cecece;
+}
+.section_holder2.two .one_fourth.active .arrow_up {
+	border-bottom: 35px solid #aaaaaa;
+}
+.section_holder2.two .one_fourth.active .arrow_down {
+	border-top: 35px solid #aaaaaa;
+}
+
+.lt_title_line.two {
+	background:url(../../images/colors/grey/title_line7.png) center top no-repeat;
+}
+.green {
+    color: #aaaaaa;
+}
+
+.section_holder21 .one_fourth.active .icon {
+    color: #aaaaaa;
+}
+.section_holder21 .one_fourth:hover .icon {
+    color: #aaaaaa;
+}
+.section_holder21 .one_fourth.active h5 {
+    color: #aaaaaa;
+}
+.section_holder21 .one_fourth:hover h5 {
+    color: #aaaaaa;
+}
