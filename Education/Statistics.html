@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Xenon Boostrap Admin Panel" />
+	<meta name="author" content="" />	
+	<title>
+	   
+   Клавиатурный тренажер - Статистика выполнения
+   </title>	
+	<link rel="stylesheet" href="../themes/modern/css/fonts/linecons/css/linecons.css">
+	<link rel="stylesheet" href="../themes/modern/css/fonts/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../themes/modern/css/bootstrap.css">
+	<link rel="stylesheet" href="../themes/modern/css/xenon-core.css">
+	<link rel="stylesheet" href="../themes/modern/css/xenon-forms.css">
+	<link rel="stylesheet" href="../themes/modern/css/xenon-components.css">
+	<link rel="stylesheet" href="../themes/modern/css/xenon-skins.css">
+	<link rel="stylesheet" href="../themes/modern/css/custom.css">    
+	<script src="../themes/modern/js/jquery-1.11.1.min.js"></script>
+    <link rel="shortcut icon" href="../themes/site/images/favicon.ico">
+   
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	
+</head>
+<body class="page-body">
+	<div class="page-container">
+	
+		<div class="sidebar-menu toggle-others fixed">			
+			<div class="sidebar-menu-inner">					
+				<header class="logo-env">	
+					<div class="logo">
+						<a href="../index.html" class="logo-expanded">
+						
+						</a>	
+					</div>	
+					<div class="mobile-menu-toggle visible-xs">
+						<a href="Statistics.html#" data-toggle="user-info-menu">
+							<i class="fa-bell-o"></i>
+							<span class="badge badge-success">7</span>
+						</a>
+						
+						<a href="Statistics.html#" data-toggle="mobile-menu">
+							<i class="fa-bars"></i>
+						</a>
+					</div>		
+				</header>	
+				<ul id="main-menu" class="main-menu">
+					
+					<li>
+						<a href="Test.html">
+							<i class="fa-play"></i>
+							<span class="title">Тестовое задание</span>
+						</a>						
+					</li>
+                     
+                    <li>
+						<a href="RU/Tasks.html">
+							<i class="fa-tasks"></i>
+							<span class="title">Список заданий (Русский)</span>
+						</a>						
+					</li>                  
+                    <li>
+						<a href="EN/Tasks.html">
+							<i class="fa-tasks"></i>
+							<span class="title">Список заданий (Английский)</span>
+						</a>						
+					</li>
+
+                    <li>
+						<a href="Statistics.html">
+							<i class="fa-tasks"></i>
+							<span class="title">Конструктор заданий</span>
+						</a>
+						<ul>
+							<li>
+								<a href="Constructor/Groups.html">
+									<span class="title">Список групп заданий</span>
+								</a>
+							</li>							
+                            <li>
+					        	<a href="Constructor/RU/Tasks.html">
+                                <span class="title">Список заданий (Русский)</span>
+                                </a>						
+					        </li>
+                            <li>
+						        <a href="Constructor/UA/Tasks.html">							
+							    <span class="title">Список заданий (Украинский)</span>
+						        </a>						
+					        </li>
+                            <li>
+						        <a href="Constructor/EN/Tasks.html">							
+							    <span class="title">Список заданий (Английский)</span>
+						        </a>						
+					        </li>
+							<li>
+								<a href="Constructor/Groups/Tasks/Create.html">
+									<span class="title">Добавить новое задание</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+                    <li>
+						<a href="Statistics.html">
+							<i class="fa-bar-chart"></i>
+							<span class="title">Статистика</span>
+						</a>
+						<ul>
+							<li>
+								<a href="Statistics.html">
+									<span class="title">Общая статистика</span>
+								</a>
+							</li>
+							<li>
+								<a href="Charts.html">
+									<span class="title">Графики выполнения заданий</span>
+								</a>
+							</li>							
+						</ul>
+					</li>  
+                    
+                    <li>
+						<a href="../Rating.html">
+							<i class="fa-users"></i>
+							<span class="title">Рейтинг пользователей</span>
+						</a>						
+					</li>
+                    <li>
+						<a href="Statistics.html">
+							<i class="linecons-mail"></i>
+							<span class="title">Сообщения</span>							
+						</a>
+						<ul>
+                        	
+                            <li>
+								<a href="../Mailbox/Proposal/Create.html">
+									<span class="title">Предложить улучшение сервиса</span>
+								</a>
+							</li>	
+                            <li>
+								<a href="../Mailbox/Errors/Create.html">
+									<span class="title">Сообщить об ошибке</span>
+								</a>
+							</li>		
+						</ul>
+					</li>
+                    <li>
+						<a href="../Review/Create.html">
+							<i class="linecons-mail"></i>
+							<span class="title">Оставить отзыв</span>
+						</a>						
+					</li>
+                    <li>
+						<a href="FAQ.html">
+							<i class="fa-graduation-cap"></i>
+							<span class="title">FAQ</span>
+						</a>						
+					</li>					
+				</ul>						
+			</div>			
+		</div>
+		<div class="main-content">
+			<nav class="navbar user-info-navbar" role="navigation">				
+				
+				<ul class="user-info-menu left-links list-inline list-unstyled">
+					
+					<li class="hidden-sm hidden-xs">
+						<a href="Statistics.html#" data-toggle="sidebar">
+							<i class="fa-bars"></i>
+						</a>
+					</li>
+														
+				</ul>
+                
+                  <ul class="user-info-menu right-links list-inline list-unstyled">	
+                  <li class="dropdown user-profile">
+	
+					</li>
+		
+        
+             
+                  		
+					<li class="dropdown user-profile">
+						<a href="Statistics.html#" data-toggle="dropdown">
+							<img src="../themes/modern/images/user-4.png" alt="user-image" class="img-circle img-inline userpic-32" width="28" />
+							<span>
+								Гость 
+								<i class="fa-angle-down"></i>
+							</span>
+						</a>
+						
+						<ul class="dropdown-menu user-profile-menu list-unstyled">							
+							<li>
+								<a href="../Account/SingUp.html">
+									<i class="fa-user"></i>
+									Зарегистрироваться
+								</a>
+							</li>							
+							<li class="last">
+								<a href="../Account/Login.html">
+									<i class="fa-lock"></i>
+									Войти в аккаунт
+								</a>
+							</li>
+						</ul>
+					</li>	
+				</ul>
+                
+			</nav>
+			              
+
+   <div class="page-title">
+						
+       <div class="title-env">
+					<h1 class="title">Статистика гостей проекта</h1>
+					<p class="description">Для того, что бы следить за своей статистикой Вам необходимо <a href="../Account/SingUp.html">зарегистрироваться</a> или <a href="../Account/Login.html">войти</a> в свой аккаунт.</p>
+				</div>
+				
+					<div class="breadcrumb-env">
+					
+								<ol class="breadcrumb bc-1">									
+								<li>
+						
+										<a href="Statistics.html#">Статистика</a>
+								</li>
+							<li class="active">
+						
+										<strong>Общая статистика</strong>
+								</li>
+								</ol>
+								
+				</div>
+        
+			</div>
+<div class="row">
+
+                <div class="col-sm-4">
+					
+					<div class="xe-widget xe-counter" data-count=".num" data-from="0" data-to="30" data-suffix="" data-duration="2">
+						<div class="xe-icon">
+							
+						</div>
+						<div class="xe-label">
+							<strong class="num">30</strong>
+							<span>Количество заданий</span>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-sm-4">
+					
+					<div class="xe-widget xe-counter xe-counter-info" data-count=".num" data-from="0" data-to="8" data-duration="2" data-easing="true">
+						<div class="xe-icon">
+							
+						</div>
+						<div class="xe-label">
+							<strong class="num">8</strong>
+							<span>Количество групп заданий</span>
+						</div>
+					</div>
+				
+				</div>
+				<div class="col-sm-4">
+					
+					<div class="xe-widget xe-counter xe-counter-blue" data-count=".num" data-from="1" data-to="14" data-suffix="" data-duration="3" data-easing="false">
+						<div class="xe-icon">
+							
+						</div>
+						<div class="xe-label">
+							<strong class="num">14</strong>
+							<span>Количество пользователей</span>
+						</div>
+					</div>
+				
+				</div>			
+				
+
+
+				<div class="col-sm-4">
+					
+					<div class="xe-widget xe-progress-counter xe-progress-counter-turquoise" data-count=".num" data-from="0" data-to="97"  data-duration="3">
+						
+						<div class="xe-background">
+							
+						</div>
+						
+						<div class="xe-upper">
+							<div class="xe-icon">
+								
+							</div>
+							<div class="xe-label">
+								<span>общее количество выполненных заданий</span>
+								<strong class="num">97</strong>
+							</div>
+						</div>
+						
+						<div class="xe-progress">
+							<span class="xe-progress-fill" data-fill-from="0" data-fill-to="26" data-fill-unit="%" data-fill-property="width" data-fill-duration="3" data-fill-easing="true"></span>
+						</div>
+						
+						<div class="xe-lower">
+							<span>Прогресс выполнения всех заданий (26%)</span>
+							<strong>Выполнено 26% всех заданий</strong>
+						</div>
+						
+					</div>
+				
+				</div>
+				
+				<div class="col-sm-4">
+				
+					<div class="xe-widget xe-counter-block" data-count=".num" data-from="0" data-to="69" data-suffix="" data-duration="2">
+						<div class="xe-upper">
+							
+							<div class="xe-icon">
+							
+							</div>
+							<div class="xe-label">
+								<strong class="num">69</strong>
+								<span>Успешно завершенных заданий</span>
+							</div>
+							
+						</div>
+						<div class="xe-lower">
+							<div class="border"></div>
+							
+							<span>Статистика</span>
+							<strong>Успешные попытки</strong>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="col-sm-4">
+				<div class="xe-widget xe-counter-block xe-counter-block-red" data-count=".num" data-from="0" data-to="28" data-suffix="" data-duration="2">
+						<div class="xe-upper">
+							
+							<div class="xe-icon">
+					
+							</div>
+							<div class="xe-label">
+								<strong class="num">28</strong>
+								<span>Проваленных заданий</span>
+							</div>
+							
+						</div>
+						<div class="xe-lower">
+							<div class="border"></div>
+							
+							<span>Статистика</span>
+							<strong>Неуспешные попытки</strong>
+						</div>
+					</div>
+					
+				</div>
+				<div class="clearfix"></div>
+                 
+
+
+
+                <div class="clearfix"></div>
+				<div class="row">
+				<div class="col-sm-12">
+				
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Средняя скорость набора символов</h3>
+							<div class="panel-options">
+								
+								<a href="Statistics.html#" data-toggle="remove">
+									&times;
+								</a>
+							</div>
+						</div>
+						<div class="panel-body">
+							
+							<div class="row">
+								<div class="col-sm-12">
+									<script type="text/javascript">
+									    jQuery(document).ready(function ($) {
+									        var gauge = $('#gauge-2').dxCircularGauge({
+									            scale: {
+									                startValue: 0,
+									                endValue: 1000,
+									                majorTick: {
+									                    color: '#1A1100',
+									                    tickInterval: 100
+									                },
+									                minorTick: {
+									                    color: '#1A1100',
+									                    visible: true,
+									                    tickInterval: 25
+									                }
+									            },
+									            rangeContainer: {
+									                backgroundColor: 'none'
+									            },
+									            title: {
+									                text: 'Средняя скорость набора 163 символов в минуту',
+									                font: { size: 28 }
+									            },
+									            value: 223
+									        }).dxCircularGauge('instance');
+									       
+									    });
+									</script>
+									
+									
+									<div id="gauge-2" style="height: 440px; margin: 0 30px;"></div>
+									
+									<div class="text-center">
+										
+									</div>
+								</div>
+								</div>
+                            </div>
+						
+						<hr />						
+					
+					</div>
+						
+				</div>
+			</div>
+				
+				
+				<div class="clearfix"></div>
+			
+				
+				
+			</div>
+                   
+           
+    
+
+<script src="../themes/modern/js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="../themes/modern/js/jvectormap/regions/jquery-jvectormap-world-mill-en.js"></script>
+<script src="../themes/modern/js/xenon-widgets.js"></script>
+<script src="../themes/modern/js/devexpress-web-14.1/js/globalize.min.js"></script>
+<script src="../themes/modern/js/devexpress-web-14.1/js/dx.chartjs.js"></script>
+
+
+		</div>		
+	</div>   
+	<script src="../themes/modern/js/bootstrap.min.js"></script>
+	<script src="../themes/modern/js/TweenMax.min.js"></script>
+	<script src="../themes/modern/js/resizeable.js"></script>
+	<script src="../themes/modern/js/joinable.js"></script>
+	<script src="../themes/modern/js/xenon-api.js"></script>
+	<script src="../themes/modern/js/xenon-toggles.js"></script>	
+    <script src="../themes/modern/js/jquery-ui/jquery-ui.min.js"></script>  
+	<script src="../themes/modern/js/tocify/jquery.tocify.min.js"></script>
+	<script src="../themes/modern/js/xenon-custom.js"></script>
+</body>
+</html>
